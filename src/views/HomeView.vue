@@ -17,7 +17,10 @@
           class="px-1 m-2 bg-[#F0F0F0] flex items-center justify-center rounded-md">
           <MagnifyIcon fillColor="#515151" :size="18" class="mr-6" />
           <input
-            class="ml-5 apperance-none w-full bg-[#F0F0F0] py-1.5 px-2.5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder:text-sm placeholder:text-gray-500" type="text">
+            class="ml-5 apperance-none w-full bg-[#F0F0F0] py-1.5 px-2.5 text-gray-700 leading-tight focus:outline-none focus:shadow-outline placeholder:text-sm placeholder:text-gray-500" type="text" autocomplete="off"
+            placeholder="Start a new chat"
+            >
+            
         </div>
       </div>
     </div>
