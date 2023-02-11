@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex border-2">
     <div id="Header" class="fixed w-[420px] z-10">
       <div
         class="bg-[#F0F0F0] w-full flex justify-between items-center px-3 py-2">
@@ -24,10 +24,12 @@
         </div>
       </div>
     </div>
+    <ChatView class="mt-[100px]"/>
   </div>
 </template>
 
 <script setup>
+import ChatView from "./ChatView.vue";
 import AccountGroupIcon from "vue-material-design-icons/AccountGroup.vue";
 import DotsVerticalIcon from "vue-material-design-icons/DotsVertical.vue";
 import MagnifyIcon from "vue-material-design-icons/Magnify.vue";
