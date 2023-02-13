@@ -2,7 +2,7 @@
   <div class="w-full">
     <div class="max-w-xl mx-auto">
       <div class="mt-10 flex items-center w-full">
-        <img width="40" src="vite.svg" alt="" />
+        <img width="40" src="/vite.svg" alt="" />
         <div class="font-semibold text-gray-600 ml-6">Haloop Login</div>
       </div>
 
